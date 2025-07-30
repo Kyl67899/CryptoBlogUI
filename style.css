@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --background: hsl(47, 88%, 63%);
+  --card-bg: hsl(0, 0%, 100%);
+  --text-grey: hsl(0, 1%, 40%);
+  --text: hsl(0, 0%, 7%);
+  --font-size: 16px;
+
+  /* ### Font */
+
+  /* - Family: [Figtree](https://fonts.google.com/specimen/Figtree) */
+  /* Weights: 500, 800 */
+  --font-family: ;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* image */
+img.img {
+  border-radius: 15px;
+}
+
+/* card */
+
+.card {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+  width: 75em;
+  height: 25em;
+  background-color: var(--text-grey);
+  color: var(--text);
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+}
+
+.card1 {
+  /* background-color: red; */
+  width: 100%;
+  padding: 18px 18px;
+}
+
+.card__text {
+  padding-top: 10px;
+}
+
+.card__text .text1 {
+}
+
+.text1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.card__text .text1 span {
+  font-style: italic;
+  color: green;
+}
+
+.text2 {
+  color: var(--card-bg);
+  padding-top: 10px;
+  padding-right: 13px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  padding: 10px;
+  width: 150px;
+  background-color: #a508ad;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+.card2,
+.card3 {
+  /* background-color: green; */
+  /* padding: 100px; */
+  width: 100%;
+}
+
+/* insde the card */
+.inside-card {
+  padding: 20px;
+}
+
+.img__1,
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.img__2 {
+  margin-top: 15px;
+  width: 305px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.card2__card {
+  margin-top: 15px;
+}
+
+.card_header {
+  width: 100px;
+}
+
+.card2_text {
+  color: var(--card-bg);
+  padding-top: 10px;
+  width: 426px;
+  font-size: 28px;
+}
+
+@media screen and (width: 375px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 22em;
+    height: 45em;
+    padding: 18px 18px;
+  }
+
+  .card2:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (width: 425px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 27em;
+    height: 44em;
+    padding: 18px 18px;
+  }
+
+  .card2:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 27em;
+    height: 44em;
+    padding: 18px 18px;
+  }
+
+  .card2:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 27em;
+    height: 44em;
+    padding: 18px 18px;
+  }
+
+  .card2:nth-child(2) {
+    display: none;
+  }
+}
